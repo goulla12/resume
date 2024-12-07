@@ -1,0 +1,94 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.contact p {
+    font-size: 1em;
+    color: #777;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #444;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.job ul {
+    margin-top: 10px;
+}
+
+/* Additional styling for sections */
+.degree {
+    font-size: 1.1em;
+}
+
+.skills ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.skills li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.skills li:hover {
+    background-color: #e6e6e6;
+}
